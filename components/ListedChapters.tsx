@@ -1,5 +1,6 @@
 "use client";
 
+import Divider from "@/components/Divider";
 import { UserData, UserDummyData } from "@/app/types";
 import ChapterBoard from "@/components/ChapterBoard";
 import { useEffect, useState } from "react";
@@ -13,8 +14,10 @@ export default function ListedChapters() {
   const refreshData = () => {
     setUserData(JSON.parse(localStorage.getItem("userData")!.toString()));
   };
+  if (userData.userChapters.length == 0) return <></>;
   return (
     <>
+      <Divider />
       <div className="w-[90%] block mx-auto text-center">
         <div>
           <h1 className="my-14 text-3xl underline md:text-6xl tracking-wide font-bold">

@@ -21,7 +21,15 @@ export default function Hero() {
       resetUserLocalStorage();
     } else {
       try {
-        JSON.parse(localStorage.getItem("userData")!);
+        const userData = JSON.parse(
+          localStorage.getItem("userData")!,
+        ) as UserData;
+        localStorage.setItem(
+          "userData",
+          JSON.stringify({
+            userChapters: userData.userChapters.filter((x) => !!x),
+          } as UserData),
+        );
       } catch {
         resetUserLocalStorage();
       }
@@ -43,7 +51,6 @@ export default function Hero() {
         setIsLoading(false);
         window.location.reload();
       })) as Chapter;
-
     appendChapterToUserDB(dataResulted);
   };
   const appendChapterToUserDB = (data: Chapter) => {

@@ -13,13 +13,15 @@ export default function Navbar() {
       className="w-[90vw] text-center fixed top-5 z-30"
     >
       <div className="w-full flex justify-between items-center">
-        <Image
-          className="mr-2 apect-square h-10 w-10"
-          alt="logo"
-          src="/emojigg/flame.gif"
-          width={1000}
-          height={1000}
-        />
+        <Link href="/">
+          <Image
+            className="mr-2 apect-square h-10 w-10"
+            alt="logo"
+            src="/emojigg/flame.gif"
+            width={1000}
+            height={1000}
+          />
+        </Link>
         <div>
           <Link target="_blank" href="//github.com/ArnavK-09/chapters_as_tasks">
             <Button
