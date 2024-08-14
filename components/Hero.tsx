@@ -57,15 +57,17 @@ export default function Hero() {
     <>
       <div className="w-auto mx-auto block">
         <h1 className="my-14 text-5xl md:text-7xl tracking-wide font-extrabold">
-          Task-ify <br />
+          Task-ify
+          <br />
           Yours
-          <br /> Study!
+          <br />
+          <strong className="text-black bg-yellow-500">Chapters!</strong>
         </h1>
         <Input
           className="w-[70vw] md:py-4 text-sm md:text-2xl md:font-semibld md:[&>button]:h-full md:[&>button>img]:h-full md:[&>button>img]:w-full"
           textColor="black"
           borderColor="black"
-          icon="https://cdn3.emoji.gg/emojis/68093-neonsparkles.gif"
+          icon="/emojigg/neon.gif"
           placeholder="Type Educational Chapter Name To Task-ify....."
           onChange={(e) => setUserEnteredChapter(e.target.value.trim())}
           onIconClick={() => submitUserTask()}

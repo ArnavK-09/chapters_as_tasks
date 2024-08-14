@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { Card, Button } from "pixel-retroui";
 
 export default function Navbar() {
@@ -15,28 +16,30 @@ export default function Navbar() {
         <Image
           className="mr-2 apect-square h-10 w-10"
           alt="logo"
-          src="https://cdn3.emoji.gg/emojis/1152-pixelorangefire.gif"
+          src="/emojigg/flame.gif"
           width={1000}
           height={1000}
         />
         <div>
-          <Button
-            bg="#fcd34d"
-            textColor="black"
-            shadow="black"
-            borderColor="black"
-            className="flex align-middle"
-          >
-            <Image
-              unoptimized
-              alt="star"
-              width={24}
-              height={24}
-              src="https://cdn3.emoji.gg/emojis/38270-cute-bow.gif"
-              className="mr-2 apect-square h-6 w-6"
-            />
-            Give A Star!
-          </Button>
+          <Link target="_blank" href="//github.com/ArnavK-09/chapters_as_tasks">
+            <Button
+              bg="#fcd34d"
+              textColor="black"
+              shadow="black"
+              borderColor="black"
+              className="flex align-middle"
+            >
+              <Image
+                unoptimized
+                alt="star"
+                width={24}
+                height={24}
+                src="/emojigg/bow.gif"
+                className="mr-2 apect-square h-6 w-6"
+              />
+              Give A Star!
+            </Button>
+          </Link>
         </div>
       </div>
     </Card>

@@ -15,7 +15,7 @@ export default function ChapterBoard({
   return (
     <section className="flex-col gap-5 w-[90%] flex">
       <div className="w-full">
-        <strong className="text-xl tracking-wide">
+        <strong className="text-xl px-3 tracking-wide text-black bg-yellow-500">
           {data.title ?? "Your Tasks"}
         </strong>
         <Card className="py-10 px-1 md:px-5 w-full">

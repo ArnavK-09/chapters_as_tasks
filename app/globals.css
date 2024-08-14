@@ -21,3 +21,8 @@ html,
 body {
   font-family: "Minecraft", sans-serif !important;
 }
+
+::selection {
+  color: rgb(22, 22, 22);
+  background: #fad816;
+}
