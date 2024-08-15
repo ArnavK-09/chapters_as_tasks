@@ -12,11 +12,12 @@
 
 ## 🏓 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#-features)
+- [Demo](#-demo)
+- [Tech Stack](#-tech-stack)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -27,6 +28,15 @@
 - **Task Management**: Complete, Undo, Redo track your tasks seamlessly to stay on top of your study schedule.
 - **Customizable Plans**: Tailor your learning experience by adjusting tasks according to your own pace and needs.
 - **Progress Tracking**: Monitor your progress as you complete each task, helping you stay motivated and focused.
+
+---
+
+# 📸 Demo
+
+> [!TIP]
+> | [**You can watch demo video by clicking link...**](/public/demo.mp4) |
+> | -------------------------------------------------------------------- |
+
 
 ---
 
