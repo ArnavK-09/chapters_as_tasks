@@ -33,10 +33,7 @@
 
 # 📸 Demo
 
-> [!TIP]
-> | [**You can watch demo video by clicking link...**](/public/demo.mp4) |
-> | -------------------------------------------------------------------- |
-
+https://github.com/user-attachments/assets/c7c86244-ba10-4a34-9ea2-9b9925ffa842
 
 ---
 
