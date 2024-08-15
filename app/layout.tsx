@@ -7,8 +7,8 @@ export const viewport: Viewport = {
   themeColor: "#ffffff",
 };
 
-export const siteDescription = `Welcome to Chapters As Tasks! This innovative web application uses the power of OpenAI's GPT technology to help students break down their lessons or chapters into manageable tasks. By transforming complex subjects into achievable to-dos, students can effectively plan their studies and enhance their learning experience. Say goodbye to overwhelming study sessions and hello to organized, productive learning!`;
-export const siteTitle = "Task-ify Your Chapter!!!....";
+const siteDescription = `Welcome to Chapters As Tasks! This innovative web application uses the power of OpenAI's GPT technology to help students break down their lessons or chapters into manageable tasks. By transforming complex subjects into achievable to-dos, students can effectively plan their studies and enhance their learning experience. Say goodbye to overwhelming study sessions and hello to organized, productive learning!`;
+const siteTitle = "Task-ify Your Chapter!!!....";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://chapters_as_tasks.vercel.app"),
