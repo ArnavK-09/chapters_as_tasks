@@ -14,8 +14,7 @@
 
 - [Features](#-features)
 - [Demo](#-demo)
-- [Tech Stack](#-tech-stack)
-- [Usage](#-usage)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
 - [Contributing](#-contributing)
 - [License](#-license)
 
