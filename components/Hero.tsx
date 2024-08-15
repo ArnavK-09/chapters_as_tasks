@@ -68,7 +68,7 @@ export default function Hero() {
           <br />
           Yours
           <br />
-          <strong className="text-black bg-yellow-500">Chapters!</strong>
+          <strong className="text-black bg-[#fcd34d]">Chapters!</strong>
         </h1>
         <Input
           className="w-[70vw] md:py-4 text-sm md:text-2xl md:font-semibld md:[&>button]:h-full md:[&>button>img]:h-full md:[&>button>img]:w-full"

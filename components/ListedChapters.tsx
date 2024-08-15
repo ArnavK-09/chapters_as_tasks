@@ -22,7 +22,7 @@ export default function ListedChapters() {
         <div>
           <h1 className="my-14 text-3xl underline md:text-6xl tracking-wide font-bold">
             Your Study{" "}
-            <strong className="text-black bg-yellow-500">Roadmap</strong>!
+            <strong className="text-black bg-[#fcd34d]">Roadmap</strong>!
           </h1>
         </div>
         <div className="grid gap-12 place-items-center mx-auto">
